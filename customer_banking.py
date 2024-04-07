@@ -1,5 +1,6 @@
 # Import the create_cd_account and create_savings_account functions
 # ADD YOUR CODE HERE
+import cd_account, create_savings_account
 
 # Define the main function
 def main():
@@ -36,7 +37,7 @@ def main():
     # ADD YOUR CODE HERE
     print(f"Your updated CD balance is:${cd_balance:.2f}")
     print(f"Your updated interest earned is:{cd_interest:.2f}")
-    print(f"For the ammount of months:{cd_maturity}")
+    print(f"For the amount of months:{cd_maturity}")
 
 if __name__ == "__main__":
     # Call the main function.
